@@ -1,0 +1,21 @@
+<!-- Create a button named : "Click Me" and on clicking the button should disappear and the following content should be displayed "This is the information I got after clicking the Button" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Task "Click Me"</title>
+</head>
+<body>
+    <button id="btn">Click Me</button>
+    <p id="para"></p>
+    <script>
+        var btn = document.getElementById("btn");
+        var para = document.getElementById("para");
+        btn.addEventListener("click", function(){
+            btn.style.display = "none";
+            para.innerHTML = "This is the information I got after clicking the Button";
+        });
+    </script>
+</body>
+</html>
