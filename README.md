@@ -19,6 +19,8 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 **Jan 29, 2024**
 - **[AlertScript.html](AlertScript.html)** - This project demonstrates how to use the alert() method to display an alert box.
 - **[GetElementById.html](GetElementById.html)** - This project demonstrates how to use the getElementById() method to get an element from the HTML document.
+- **[DocumentWrite.html](DocumentWrite.html)** - This project demonstrates how to use the document.write() method to write text directly into the HTML document.
+- **[Conditional.js](Conditional.js)** - This project demonstrates how to use conditional statements in JavaScript.
 
 ---
 
