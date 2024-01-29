@@ -7,15 +7,12 @@
     <title>Class Task "Click Me"</title>
 </head>
 <body>
-    <button id="btn">Click Me</button>
-    <p id="para"></p>
+    <button type="button" onclick="myFunction()">Click Me</button>
+    <p id="demo"></p>
     <script>
-        var btn = document.getElementById("btn");
-        var para = document.getElementById("para");
-        btn.addEventListener("click", function(){
-            btn.style.display = "none";
-            para.innerHTML = "This is the information I got after clicking the Button";
-        });
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "This is the information I got after clicking the Button";
+        }
     </script>
 </body>
 </html>
