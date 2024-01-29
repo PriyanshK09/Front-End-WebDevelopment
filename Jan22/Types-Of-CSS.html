@@ -1,0 +1,42 @@
+<!-- There are 3 types of CSS -->
+<!-- 1. Inline CSS -->
+<!-- 2. Internal or Embedded CSS -->
+<!-- 3. External CSS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Class 1</title>
+</head>
+
+<!-- INLINE CSS Example -->
+
+<body>
+    <h1 style="color: red; margin: left 40px;">Inline CSS is applied to this tag.</h1>
+    <h2>NO Inline CSS applied to this tag.</h2>
+</body>
+
+<!-- INTERNAL CSS Example -->
+
+<style>
+    h1 {
+        color: red;
+        margin-left: 40px;
+    }
+</style>
+<body>
+    <h1>CSS Applied using Internal CSS</h1>
+    <h2>NO Internal CSS applied to this tag</h2>
+</body>
+
+
+<!-- External CSS Example -->
+
+<link rel="stylesheet" href="/Types-Of-CSS.css">
+<body>
+    <h1 id="external1">CSS Applied using External CSS</h1>
+    <h2>NO External CSS applied to this tag</h2>
+</body>
+
+</html>

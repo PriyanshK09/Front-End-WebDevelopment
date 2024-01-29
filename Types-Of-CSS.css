@@ -1,0 +1,11 @@
+*{
+    background-color: lightblue;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#external1{
+    background-color: lightgreen;
+    color: rgb(42, 32, 185);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
