@@ -26,6 +26,8 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 - **[Comparision.html](Comparision.html)** - This project demonstrates how to use comparison operators in JavaScript.
 - **[BitwiseOperator.html] (BitwiseOperator.html)** - This project demonstrates how to use bitwise operators in JavaScript.
 - **[JavascriptBitwise.html](JavascriptBitwise.html)** - This project demonstrates how to use bitwise operators in JavaScript.
+- **[JavaScript-Logical-Operators.html](JavaScript-Logical-Operators.html)** - This project demonstrates how to use logical operators in JavaScript.
+- **[JavaScript-Assignment-Operators.html](JavaScript-Assignment-Operators.html)** - This project demonstrates how to use assignment operators in JavaScript.
 
 ---
 
