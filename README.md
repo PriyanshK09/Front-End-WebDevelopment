@@ -22,6 +22,9 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 - **[DocumentWrite.html](DocumentWrite.html)** - This project demonstrates how to use the document.write() method to write text directly into the HTML document.
 - **[Conditional.js](Conditional.js)** - This project demonstrates how to use conditional statements in JavaScript.
 - **[JS-ClassTask.html](JS-ClassTask.html)** - This project was given in class.
+- **[ArithemeticOperators.html](ArithemeticOperators.html)** - This project demonstrates how to use arithmetic operators in JavaScript.
+- **[Comparision.html](Comparision.html)** - This project demonstrates how to use comparison operators in JavaScript.
+- **[BitwiseOperator.html] (BitwiseOperator.html)** - This project demonstrates how to use bitwise operators in JavaScript.
 
 ---
 

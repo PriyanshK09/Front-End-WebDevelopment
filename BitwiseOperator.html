@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bitwise Operations</title>
+</head>
+<body>
+    <h1>Bitwise Operations</h1>
+
+    <script>
+        // Bitwise AND
+        var a = 5; // 0101
+        var b = 3; // 0011
+        var resultAnd = a & b; // 0001
+        document.write("Bitwise AND: " + resultAnd + "<br>");
+
+        // Bitwise OR
+        var resultOr = a | b; // 0111
+        document.write("Bitwise OR: " + resultOr + "<br>");
+
+        // Bitwise XOR
+        var resultXor = a ^ b; // 0110
+        document.write("Bitwise XOR: " + resultXor + "<br>");
+
+        // Bitwise NOT
+        var resultNotA = ~a; // 1010
+        document.write("Bitwise NOT of a: " + resultNotA + "<br>");
+
+        // Bitwise Left Shift
+        var resultLeftShift = a << 1; // 1010
+        document.write("Bitwise Left Shift: " + resultLeftShift + "<br>");
+
+        // Bitwise Right Shift
+        var resultRightShift = a >> 1; // 0010
+        document.write("Bitwise Right Shift: " + resultRightShift + "<br>");
+    </script>
+</body>
+</html>
