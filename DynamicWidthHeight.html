@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webpage Dimensions</title>
+</head>
+<body>
+    <p id="dimensions"></p>
+
+    <script>
+        // Function to update the dimensions
+        function updateDimensions() {
+            // Get the width and height of the webpage
+            var width = window.outerWidth;
+            var height = window.outerHeight;
+
+            // Display the dimensions in the paragraph element
+            var dimensionsElement = document.getElementById("dimensions");
+            dimensionsElement.textContent = "The width of the webpage is " + width + "px and the height is " + height + "px.";
+        }
+
+        // Initial call to update dimensions
+        updateDimensions();
+
+        // Add event listener for resize event
+        window.addEventListener("resize", updateDimensions);
+    </script>
+</body>
+</html>
