@@ -29,6 +29,9 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 - **[JavaScript-Logical-Operators.html](JavaScript-Logical-Operators.html)** - This project demonstrates how to use logical operators in JavaScript.
 - **[JavaScript-Assignment-Operators.html](JavaScript-Assignment-Operators.html)** - This project demonstrates how to use assignment operators in JavaScript.
 
+**Feb 1, 2024**
+- **[EventListener.html](EventListener.html)** - This project demonstrates how to use event listeners in JavaScript.
+
 ---
 
 ## Latest Update: January 29, 2024
