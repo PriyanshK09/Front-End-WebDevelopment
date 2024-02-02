@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Animation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+
+<script type="text/javascript">
+    var img = null;
+
+    function init(){
+    img = document.getElementById('img');
+    img.style.position = 'relative';
+    img.style.left = '50px';
+    }
+
+    function moveRight(){
+    img.style.left = parseInt(img.style.left) + 10 + 'px';
+    }
+
+    function moveLeft(){
+    img.style.left = parseInt(img.style.left) - 10 + 'px';
+    }
+
+    window.onload = init;
+</script>
+
+<head>
+    <body>
+        <form>
+            <img id="img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
+            <br/>
+            <button onclick="moveRight()">Move Right</button>
+            <button onclick="moveLeft()">Move Left</button>
+        </form>
+    </body>
+</head>
+
+</html>
