@@ -32,6 +32,7 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 **Feb 1, 2024**
 - **[EventListener.html](EventListener.html)** - This project demonstrates how to use event listeners in JavaScript.
 - **[DynamicWidthHeight.html](DynamicWidthHeight.html)** - This project demonstrates how to use the window.innerWidth and window.innerHeight properties to get the width and height of the browser window.
+- **[WindowAction.html](WindowAction.html)** - This project demonstrates how to display an image after a particular interval of time. By the use of array. AutomatedImageSlide.
 
 ---
 
