@@ -1,0 +1,29 @@
+<!-- This project demonstrates how to create a clock using JavaScript using onClick event. -->
+<!DOCTYPE html>
+<html>
+
+    <body>
+        <center>
+            <button onclick="start()">Start Time</button>
+            <button onclick="stop()">Pause!</button>
+            <p id="demo"></p>
+        </center>
+
+        <script>
+            var i;
+            function start() {
+                i = setInterval(datetime, 1000);
+            }
+
+            function datetime() {
+                document.getElementById("demo").innerHTML = new Date();
+                document.getElementById("demo").style.cssText = "font-size: 30px; color: blue; font-weight: bold; text-align: center;";
+            }
+
+            function stop() {
+                clearInterval(i);
+            }
+        </script>
+    </body>
+
+</html>

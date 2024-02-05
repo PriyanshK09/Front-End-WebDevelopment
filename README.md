@@ -36,6 +36,8 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 - **[Animation.html](Animation.html)** - This project demonstrates how to use the setInterval() method to create an animation effect.
 - **[ClassActivity.html](ClassActivity.html)** - This project was given in class. (Personal Webpage Creation)
 
+**Feb 5, 2024**
+- **[Clock.html](Clock.html)** - This project demonstrates how to create a clock using JavaScript using onClick event.
 ---
 
 ## Latest Update: January 29, 2024
