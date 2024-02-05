@@ -23,6 +23,25 @@
         <input type="password" id="password" name="password" required>
         <span id="passwordError" class="error"></span>
         <br><br>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <span id="genderError" class="error"></span>
+        <br><br>
+        <label for="city">City:</label>
+        <select id="city" name="city" required>
+            <option value="">Select</option>
+            <option value="newyork">New York</option>
+            <option value="london">London</option>
+            <option value="paris">Paris</option>
+            <option value="tokyo">Tokyo</option>
+        </select>
+        <span id="cityError" class="error"></span>
+        <br><br>
         <input type="submit" value="Submit">
     </form>
 
@@ -31,14 +50,20 @@
             var name = document.getElementById("name").value;
             var email = document.getElementById("email").value;
             var password = document.getElementById("password").value;
+            var gender = document.getElementById("gender").value;
+            var city = document.getElementById("city").value;
 
             var nameError = document.getElementById("nameError");
             var emailError = document.getElementById("emailError");
             var passwordError = document.getElementById("passwordError");
+            var genderError = document.getElementById("genderError");
+            var cityError = document.getElementById("cityError");
 
             nameError.textContent = "";
             emailError.textContent = "";
             passwordError.textContent = "";
+            genderError.textContent = "";
+            cityError.textContent = "";
 
             if (name === "") {
                 nameError.textContent = "Name is required";
@@ -52,6 +77,16 @@
 
             if (password === "") {
                 passwordError.textContent = "Password is required";
+                return false;
+            }
+
+            if (gender === "") {
+                genderError.textContent = "Gender is required";
+                return false;
+            }
+
+            if (city === "") {
+                cityError.textContent = "City is required";
                 return false;
             }
 
