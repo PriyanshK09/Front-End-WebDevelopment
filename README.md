@@ -38,6 +38,8 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 
 **Feb 5, 2024**
 - **[Clock.html](Clock.html)** - This project demonstrates how to create a clock using JavaScript using onClick event.
+- **[FormValidation.html](FormValidation.html)** - This project demonstrates how to validate a form using JavaScript.
+
 ---
 
 ## Latest Update: January 29, 2024
