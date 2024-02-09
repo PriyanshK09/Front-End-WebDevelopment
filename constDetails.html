@@ -5,6 +5,7 @@
 </head>
 <body>
     <p id="demo"></p>
+    <p id="demo1"></p>
 
     <script>
         // Student details
@@ -12,7 +13,12 @@
             firstname: "Priyansh",
             lastname: "Khare",
             age: 19,
-            grade: "A"
+            grade: "A",
+
+            // Full Name
+            fname : function() {
+                return this.firstname + " " + this.lastname;
+            }
         };
 
         // Function to display student details
@@ -24,13 +30,25 @@
                                                              Grade: ${student.grade}`;
         }
 
+        function displayFullName() {
+            const demoElement = document.getElementById("demo1");
+            demoElement.innerHTML = `Full Name: ${student.fname()}`;
+        }
+
         // Function to print the student details
         function printStudentDetails() {
             window.print();
         }
 
+        function displayFullName() {
+            const demoElement = document.getElementById("demo1");
+            demoElement.innerHTML = `Full Name: ${student.fname()}`;
+        }
+
+
         // Display student details
         displayStudentDetails();
+        displayFullName();
     </script>
 </body>
 </html>
