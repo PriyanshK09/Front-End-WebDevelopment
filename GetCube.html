@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Get Cube</title>
+</head>
+<body>
+    <form>
+        <label for="number">Enter a number:</label>
+        <input type="number" id="number" name="number" required>
+        <button type="submit">Calculate Cube</button>
+    </form>
+
+    <div class="class1">
+
+    </div>
+
+    <script text="text/javascript">
+        document.querySelector('form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var number = parseInt(document.getElementById('number').value);
+            var cube = number * number * number;
+            alert('The cube of ' + number + ' is ' + cube);
+        });
+
+        var x = document.getElementsByClassName("class1");
+        document.write("On calling x: " + x);
+    </script>
+</body>
+</html>
