@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+        // Student details
+        const student = {
+            firstname: "Priyansh",
+            lastname: "Khare",
+            age: 19,
+            grade: "A"
+        };
+
+        // Function to display student details
+        function displayStudentDetails() {
+            const demoElement = document.getElementById("demo");
+            demoElement.innerHTML = `First Name: ${student.firstname}<br>
+                                    Last Name: ${student.lastname}<br>
+                                                             Age: ${student.age}<br>
+                                                             Grade: ${student.grade}`;
+        }
+
+        // Function to print the student details
+        function printStudentDetails() {
+            window.print();
+        }
+
+        // Display student details
+        displayStudentDetails();
+    </script>
+</body>
+</html>
