@@ -45,6 +45,7 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 - **[PrintValue.html](PrintValue.html)** - This project demonstrates how to print the value of a variable using JavaScript.
 - **[GetCube.html](GetCube.html)** - This project demonstrates how to get the cube of a number using JavaScript.
 - **[constDetails.html](constDetails.html)** - This project demonstrates how to use the const keyword in JavaScript.
+- **[JS-ClassTask2.html](JS-ClassTask2.html)** - This project was given in class. Form Validation
 
 ---
 
