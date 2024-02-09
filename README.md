@@ -41,6 +41,9 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 - **[FormValidation.html](FormValidation.html)** - This project demonstrates how to validate a form using JavaScript.
 - **[ErrorHandling.html](ErrorHandling.html)** - This project demonstrates how to handle errors in JavaScript.
 
+**Feb 9, 2024**
+- **[PrintValue.html](PrintValue.html)** - This project demonstrates how to print the value of a variable using JavaScript.
+
 ---
 
 ## Latest Update: January 29, 2024
