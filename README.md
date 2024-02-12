@@ -51,6 +51,7 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 - **[DOM-Elements.html](DOM-Elements.html)** - This project demonstrates how to use the DOM to get elements from the HTML document.
 - **[LoopingObjectProp.html](LoopingObjectProp.html)** - This project demonstrates how to loop through the properties of an object using JavaScript.
 - **[ThisKeyword.html](ThisKeyword.html)** - This project demonstrates how to use the this keyword in JavaScript.
+- **[ArrayMethods.html](ArrayMethods.html)** - This project demonstrates how to use array methods in JavaScript.
 
 ---
 

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Object Values to Array</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+        const obj = {
+            name: 'John',
+            age: 30,
+            city: 'New York'
+        };
+
+        const valuesArray = Object.values(obj);
+        document.getElementById('demo').innerHTML = valuesArray;
+    </script>
+</body>
+</html>
