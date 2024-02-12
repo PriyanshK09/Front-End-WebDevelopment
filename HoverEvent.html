@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Event Listener</title>
+</head>
+<body>
+    <h1>Hover Event Listener</h1>
+    <p>Hover over the button to change its background color.</p>
+    <button id="btn">Hover me</button>
+
+    <script>
+        const btn = document.getElementById("btn");
+        btn.addEventListener("mouseover", function() {
+            btn.style.backgroundColor = "red";
+        });
+
+        btn.addEventListener("mouseout", function() {
+            btn.style.backgroundColor = "white";
+        });
+    </script>
+</body>
+</html>
