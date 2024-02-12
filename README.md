@@ -55,6 +55,7 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 - **[Prototype.html](Prototype.html)** - This project demonstrates how to use the prototype property in JavaScript.
 - **[HoverEvent.html](HoverEvent.html)** - This project demonstrates how to use the onmouseover and onmouseout events in JavaScript.
 - **[EventBubbling.html](EventBubbling.html)** - This project demonstrates how to use event bubbling in JavaScript.
+- **[EventBubbling2.html](EventBubbling2.html)** - This project demonstrates how to use event bubbling in JavaScript.
 
 ---
 

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        form, div, p {
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            <p>
+                Click anywhere inside this paragraph to trigger event bubbling!
+            </p>
+        </div>
+    </form>
+
+    <script>
+        document.addEventListener('click', function(event) {
+            if (event.target.matches('form')) {
+                alert('Clicked on form!');
+            } else if (event.target.matches('div')) {
+                alert('Clicked on div!');
+            } else if (event.target.matches('p')) {
+                alert('Clicked on paragraph!');
+            }
+        });
+    </script>
+</body>
+</html>
