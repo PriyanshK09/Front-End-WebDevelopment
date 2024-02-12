@@ -54,6 +54,7 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 - **[ArrayMethods.html](ArrayMethods.html)** - This project demonstrates how to use array methods in JavaScript.
 - **[Prototype.html](Prototype.html)** - This project demonstrates how to use the prototype property in JavaScript.
 - **[HoverEvent.html](HoverEvent.html)** - This project demonstrates how to use the onmouseover and onmouseout events in JavaScript.
+- **[EventBubbling.html](EventBubbling.html)** - This project demonstrates how to use event bubbling in JavaScript.
 
 ---
 
