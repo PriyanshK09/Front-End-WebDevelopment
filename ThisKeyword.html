@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This Keyword</title>
+</head>
+<body>
+    <h1>The JavaScript "this" keyword</h1>
+    <p>In JavaScript, the "this" keyword refers to the object it belongs to.</p>
+    <p>It has different values depending on where it is used:</p>
+
+    <p id="demo"></p>
+
+    <script>
+        const person = {
+            firstName: "Priyansh",
+            lastName: "Khare",
+            id: 12217140,
+            fullName: function() {
+                return this.firstName + " " + this.lastName;
+            }
+        };
+        document.getElementById("demo").innerHTML = person.fullName();
+    </script>
+</body>
+</html>
