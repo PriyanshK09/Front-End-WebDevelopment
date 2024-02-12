@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoopingObject</title>
+</head>
+<body>
+    <h2>Javascript Object Properties</h2>
+    <p>Looping object property values:</p>
+    <p id="demo"></p>
+
+    <script>
+        const person = {
+            firstName: "Priyansh",
+            lastName: "Khare",
+            age: 19,
+            rollNo: 12217140
+        };
+
+        let text = "";
+        for (let x in person) {
+            text += person[x] + " ";
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+</html>

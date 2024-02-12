@@ -1,0 +1,56 @@
+<!-- DOM stands for Document Object Model -->
+<!-- The DOM is a programming interface for web documents.
+     It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects.
+     That way, programming languages can connect to the page. -->
+
+<!-- GetElementById -->
+<!-- The getElementById() method returns the element that has the ID attribute with the specified value. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetElementById</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+
+    <script>
+        const student = {
+            firstName: "Priyansh",
+            lastName: "Khare",
+            age: 19,
+            rollNo: 12217140
+        };
+
+        document.getElementById("demo").innerHTML = "Name: " + student.firstName;
+        document.getElementById("demo1").innerHTML = "Age: " + student.age;
+        document.getElementById("demo2").innerHTML = "Roll No: " + student.rollNo;
+        document.getElementById("demo3").innerHTML = "Full Name: " + student.firstName + " " + student.lastName;
+    </script>
+</body>
+</html>
+
+<!-- Print Document using Ctrl + P -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrintElement</title>
+
+    <body>
+        <h3>DOM Print element</h3>
+        <p>Use Ctrl P to print the document</p>
+
+        <script>
+            window.print();
+        </script>
+    </body>
+</head>
+</html>
