@@ -52,6 +52,7 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 - **[LoopingObjectProp.html](LoopingObjectProp.html)** - This project demonstrates how to loop through the properties of an object using JavaScript.
 - **[ThisKeyword.html](ThisKeyword.html)** - This project demonstrates how to use the this keyword in JavaScript.
 - **[ArrayMethods.html](ArrayMethods.html)** - This project demonstrates how to use array methods in JavaScript.
+- **[Prototype.html](Prototype.html)** - This project demonstrates how to use the prototype property in JavaScript.
 
 ---
 
