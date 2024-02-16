@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Activity 3 : Error Examples</title>
+</head>
+<body>
+    <h1>Activity 3 : Error Examples</h1>
+
+    <script>
+        try {
+            // Syntax Error
+            console.log("This is a syntax error"); // Missing closing parenthesis
+            document.write("<p>This is a syntax error</p>");
+        } catch (error) {
+            console.error("Syntax Error:", error);
+        }
+
+        try {
+            // Reference Error
+            console.log(nonExistentVariable); // nonExistentVariable is not defined
+            document.write("<p>Reference Error: " + error + "</p>");
+        } catch (error) {
+            console.error("Reference Error:", error);
+        }
+
+        try {
+            // Type Error
+            let number = 10;
+            number.toUpperCase(); // toUpperCase is not a function
+            document.write("<p>Type Error: " + error + "</p>");
+        } catch (error) {
+            console.error("Type Error:", error);
+        }
+
+        try {
+            // Range Error
+            let array = [1, 2, 3];
+            array.length = -1; // Invalid array length
+            document.write("<p>Range Error: " + error + "</p>");
+        } catch (error) {
+            console.error("Range Error:", error);
+        }
+
+        try {
+            // Error due to user input
+            let userInput = prompt("Enter a number:");
+            console.log(userInput.toUpperCase()); // userInput is null, cannot call toUpperCase()
+            document.write("<p>Error due to user input: " + error + "</p>");
+        } catch (error) {
+            console.error("Error due to user input:", error);
+        }
+
+        try {
+            // Error during data processing
+            let data = {
+                name: "John",
+                age: 25
+            };
+            console.log(data.address); // address is undefined
+            document.write("<p>Error during data processing: " + error + "</p>");
+        } catch (error) {
+            console.error("Error during data processing:", error);
+        }
+
+        try {
+            // Execution Error
+            let result = 10 / 0; // Division by zero
+            console.log(result);
+            document.write("<p>Execution Error: " + error + "</p>");
+        } catch (error) {
+            console.error("Execution Error:", error);
+        }
+    </script>
+</body>
+</html>

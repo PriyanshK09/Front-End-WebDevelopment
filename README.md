@@ -57,6 +57,9 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 - **[EventBubbling.html](EventBubbling.html)** - This project demonstrates how to use event bubbling in JavaScript.
 - **[EventBubbling2.html](EventBubbling2.html)** - This project demonstrates how to use event bubbling in JavaScript.
 
+**Feb 16, 2024**
+- **[EventBubbling3.html](EventBubbling3.html)** - This project demonstrates how to use event bubbling in JavaScript.
+
 ---
 
 ## Latest Update: January 29, 2024

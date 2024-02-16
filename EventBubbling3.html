@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .abc {
+            border: 20px solid;
+            padding: 50px;
+            position: relative;
+            width: 30%;
+            margin: 30px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    
+        <div id="div1" class="abc">
+            <div id="div2" class="abc">
+                <div id="div3" class="abc">
+
+                </div>
+            </div>
+        </div>
+
+    <script>
+        document.getElementById("div1").addEventListener("mouseover", function() {
+            this.style.borderColor = "purple";
+            this.style.transform = "rotate(360deg)";
+            this.style.transition = "2s";
+        });
+
+        document.getElementById("div2").addEventListener("mouseover", function() {
+            this.style.borderColor = "blue";
+            this.style.transform = "rotate(360deg)";
+            this.style.transition = "2s";
+        });
+
+        document.getElementById("div3").addEventListener("mouseover", function() {
+            this.style.borderColor = "green";
+            this.style.transform = "rotate(360deg)";
+            this.style.transition = "2s";
+        });
+    </script>
+</body>
+</html>
