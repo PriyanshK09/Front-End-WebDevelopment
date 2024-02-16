@@ -6,19 +6,25 @@
             border: 1px solid black;
             padding: 10px;
             margin: 10px;
+            color: blue; /* Added color feature */
         }
         body * {
-            margin: 10px;
+            margin: 50px;
             font-size: 20px;
             font-family: Arial, sans-serif;
             padding: 10px;
+            border: 2px solid black;
+        }
+        .highlight {
+            border: 5px solid red;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
-    <form>
-        <div>
-            <p>
+    <form onclick="this.classList.add('highlight')">
+        <div onclick="this.classList.add('highlight')">
+            <p onclick="this.classList.add('highlight')">
                 Click anywhere inside this paragraph to trigger event bubbling!
             </p>
         </div>
