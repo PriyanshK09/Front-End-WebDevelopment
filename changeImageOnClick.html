@@ -5,13 +5,35 @@
 </head>
 <body>
     <!-- Your HTML content goes here -->
-    <img src="https://www.sololearn.com/uploads/slider/1.jpg" onclick="changeImageOnClick()" />
+    <img id="mainImage" style="border: 5px solid grey;" src="https://lecontent.sololearn.com/material-images/00c4a3ccdabf40709c3b06fd196d391b-C.png" height="500px" width="540px" />
+    <br>
+    <div id="divID" onclick="changeImageOnClick()" onmouseover="f1()" onmouseout="f2()">
+        <img src="https://lecontent.sololearn.com/material-images/d1ad657f22fb40af87c8df55b1578713-csharp.png" height="100px" width="100px" />
+        <img src="https://lecontent.sololearn.com/material-images/a0661e13ab5b47a5bc05dc171e14bd6d-python.png" height="100px" width="100px" />
+        <img src="https://lecontent.sololearn.com/material-images/053139704f764fdda1c092521ab1fa1e-HTML.png" height="100px" width="100px" />
+        <img src="https://lecontent.sololearn.com/material-images/c75af187749341a4900dac1304ef3c57-SQL.png" height="100px" width="100px" />
+    </div>
     <p>Click the image to change it</p>
 
-    <script>
+    <script type="text/javascript">
         function changeImageOnClick() {
-            var image = document.querySelector('img');
-            image.src = "https://www.sololearn.com/uploads/slider/2.jpg";
+            var x = event.target;
+            if(x.tagName == "IMG") {
+                a = x.getAttribute("src");
+                document.getElementById("mainImage").setAttribute("src", a);
+            }
+        }
+
+        function f1() {
+            x = event.target
+            x.style.cursor = "pointer";
+            x.style.borderColor = "red";
+        }
+
+        function f2() {
+            x = event.target
+            x.style.cursor = "default";
+            x.style.borderColor = "grey";
         }
     </script>
 </body>
