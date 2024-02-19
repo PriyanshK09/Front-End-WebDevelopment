@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Dynamo Dive</title>
+    <style>
+        body {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>DOM Dynamo Dive</h1>
+    <p id="dynamic-paragraph">This is a dynamically changing paragraph.</p>
+    <button onclick="toggleImage()">Toggle Image</button>
+    <button onclick="changeParagraph()">Change Paragraph</button>
+    <button onclick="changeBackground()">Change Background</button>
+    <img id="dynamic-image" src="https://lecontent.sololearn.com/material-images/053139704f764fdda1c092521ab1fa1e-HTML.png" style="display: none;">
+    <script>
+        function toggleImage() {
+            var image = document.getElementById("dynamic-image");
+            if (image.style.display === "none") {
+                image.style.display = "block";
+            } else {
+                image.style.display = "none";
+            }
+        }
+
+        function changeParagraph() {
+            var paragraph = document.getElementById("dynamic-paragraph");
+            paragraph.textContent = "This paragraph has been changed.";
+        }
+        
+        function changeBackground() {
+            document.body.style.backgroundColor = "lightblue";
+        }
+    </script>
+    <script>
+        var newElement = document.createElement("p");
+        newElement.textContent = "This is a dynamically created element.";
+        document.querySelector("body").appendChild(newElement);
+    </script>
+</body>
+</html>
