@@ -62,6 +62,7 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 
 **Feb 19, 2024**
 - **[querySelector.html](querySelector.html)** - This project demonstrates how to use the querySelector() method to select elements from the HTML document.
+- **[changeImageOnClick.html](changeImageOnClick.html)** - This project demonstrates how to change an image when a button is clicked using JavaScript.
 
 ---
 

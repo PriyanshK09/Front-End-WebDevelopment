@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Image On Click</title>
+</head>
+<body>
+    <!-- Your HTML content goes here -->
+    <img src="https://www.sololearn.com/uploads/slider/1.jpg" onclick="changeImageOnClick()" />
+    <p>Click the image to change it</p>
+
+    <script>
+        function changeImageOnClick() {
+            var image = document.querySelector('img');
+            image.src = "https://www.sololearn.com/uploads/slider/2.jpg";
+        }
+    </script>
+</body>
+</html>
