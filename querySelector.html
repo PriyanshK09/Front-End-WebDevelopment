@@ -19,6 +19,7 @@
         var button = document.createElement("button");
         button.textContent = "Change the background color of all paragraphs";
         document.body.appendChild(button);
+        
         button.addEventListener("click", function() {
             for (var i = 0; i < paragraphs.length; i++) {
                 paragraphs[i].style.backgroundColor = "red";
