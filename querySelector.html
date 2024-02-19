@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>querySelector Example</title>
+</head>
+<body>
+    <p>This is a paragraph 1</p>
+    <p>This is a paragraph 2</p>
+    <p>This is a paragraph 3</p>
+    <p>This is a paragraph 4</p>
+    <script>
+        //querySelector
+        var paragraph = document.querySelector("p");
+        paragraph.style.backgroundColor = "yellow";
+
+        // querySelectorAll
+        var paragraphs = document.querySelectorAll("p");
+        // button to change the background color of all paragraphs
+        var button = document.createElement("button");
+        button.textContent = "Change the background color of all paragraphs";
+        document.body.appendChild(button);
+        button.addEventListener("click", function() {
+            for (var i = 0; i < paragraphs.length; i++) {
+                paragraphs[i].style.backgroundColor = "red";
+            }
+        });
+    </script>
+</body>
+</html>

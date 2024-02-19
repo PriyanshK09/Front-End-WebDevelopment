@@ -60,6 +60,9 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 **Feb 16, 2024**
 - **[EventBubbling3.html](EventBubbling3.html)** - This project demonstrates how to use event bubbling in JavaScript.
 
+**Feb 19, 2024**
+- **[querySelector.html](querySelector.html)** - This project demonstrates how to use the querySelector() method to select elements from the HTML document.
+
 ---
 
 ## Latest Update: January 29, 2024
