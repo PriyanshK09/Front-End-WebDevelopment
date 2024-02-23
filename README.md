@@ -24,7 +24,7 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 - **[JS-ClassTask.html](JS-ClassTask.html)** - This project was given in class.
 - **[ArithemeticOperators.html](ArithemeticOperators.html)** - This project demonstrates how to use arithmetic operators in JavaScript.
 - **[Comparision.html](Comparision.html)** - This project demonstrates how to use comparison operators in JavaScript.
-- **[BitwiseOperator.html] (BitwiseOperator.html)** - This project demonstrates how to use bitwise operators in JavaScript.
+- **[BitwiseOperator.html](BitwiseOperator.html)** - This project demonstrates how to use bitwise operators in JavaScript.
 - **[JavascriptBitwise.html](JavascriptBitwise.html)** - This project demonstrates how to use bitwise operators in JavaScript.
 - **[JavaScript-Logical-Operators.html](JavaScript-Logical-Operators.html)** - This project demonstrates how to use logical operators in JavaScript.
 - **[JavaScript-Assignment-Operators.html](JavaScript-Assignment-Operators.html)** - This project demonstrates how to use assignment operators in JavaScript.
