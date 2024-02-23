@@ -64,9 +64,10 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 - **[querySelector.html](querySelector.html)** - This project demonstrates how to use the querySelector() method to select elements from the HTML document.
 - **[changeImageOnClick.html](changeImageOnClick.html)** - This project demonstrates how to change an image when a button is clicked using JavaScript.
 - **[JS-ClassTask4.html](JS-ClassTask4.html)** - This project was given in class. (Dom Dynamo Dive)
+- **[ScrollHtWdth.html](ScrollHtWdth.html)** - This project demonstrates how to get the scroll height and width of the browser window using JavaScript.
 ---
 
-## Latest Update: January 29, 2024
+## Latest Update: February 23, 2024
 This section will be updated with the latest projects and notes from my front end development class.
 
 ---

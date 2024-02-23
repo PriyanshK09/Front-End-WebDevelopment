@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scroll Height and Width</title>
+    <style>
+        #content {
+            height: 200px;
+            width: 300px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">This is the content</div>
+
+    <script>
+        var contentElement = document.getElementById("content");
+        var contentHeight = contentElement.offsetHeight;
+        var contentWidth = contentElement.offsetWidth;
+
+        console.log("Content height: " + contentHeight + "px");
+        console.log("Content width: " + contentWidth + "px");
+    </script>
+</body>
+</html>
