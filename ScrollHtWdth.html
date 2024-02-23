@@ -7,6 +7,7 @@
             height: 200px;
             width: 300px;
             background-color: lightblue;
+            overflow: auto;
         }
     </style>
 </head>
@@ -14,12 +15,31 @@
     <div id="content">This is the content</div>
 
     <script>
-        var contentElement = document.getElementById("content");
-        var contentHeight = contentElement.offsetHeight;
-        var contentWidth = contentElement.offsetWidth;
+        let contentElement = document.getElementById("content");
+        let updateDimensions = () => {
+            let contentHeight = contentElement.offsetHeight;
+            let contentWidth = contentElement.offsetWidth;
+            let scrollHeight = contentElement.scrollHeight;
+            let scrollWidth = contentElement.scrollWidth;
 
-        console.log("Content height: " + contentHeight + "px");
-        console.log("Content width: " + contentWidth + "px");
+            contentElement.innerHTML = "Content height: " + contentHeight + "px<br>Content width: " + contentWidth + "px<br>Scroll height: " + scrollHeight + "px<br>Scroll width: " + scrollWidth + "px";
+            // Scroll Height and Width can be changed by adding more content
+            // Example :- 
+
+            document.getElementById("content").style.height = "500px";
+            document.getElementById("content").style.width = "500px";
+            let newContent = "This is the new content";
+            for (let i = 0; i < 100; i++) {
+                newContent += "<br>" + i;
+            }
+            contentElement.innerHTML += "<br>" + newContent;
+
+        };
+
+        contentElement.addEventListener("scroll", updateDimensions);
+        window.addEventListener("resize", updateDimensions);
+
+        updateDimensions();
     </script>
 </body>
 </html>
