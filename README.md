@@ -68,6 +68,9 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 **Feb 23, 2024**
 - **[ScrollHtWdth.html](ScrollHtWdth.html)** - This project demonstrates how to get the scroll height and width of the browser window using JavaScript.
 - **[AnimationStyle.html](AnimationStyle.html)** - This project demonstrates how to use the setInterval() method to create an animation effect.
+
+**Feb 26, 2024**
+- **[JSON-Object.html](JSON-Object.html)** - This project demonstrates how to use JSON objects in JavaScript.
 ---
 
 ## Latest Update: February 23, 2024
