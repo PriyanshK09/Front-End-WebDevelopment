@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details</title>
+</head>
+<body>
+    <h2>Student Details</h2>
+    <p id="name"></p>
+    <p id="cgpa"></p>
+    <p>Courses:</p>
+    <p id="courses"></p>
+    <script>
+        var stud, a = "", i;
+
+        stud = {
+            name: "Ravi",
+            cgpa: 8.7,
+            courses: ["HTML", "CSS", "JS"]
+        };
+
+        for (i in stud.courses) {
+            a += stud.courses[i] + "<br>";
+        }
+
+        document.getElementById("name").innerHTML = "Name: " + stud.name;
+        document.getElementById("cgpa").innerHTML = "CGPA: " + stud.cgpa;
+
+        document.getElementById("courses").innerHTML = a;
+    </script>
+</body>
+</html>
