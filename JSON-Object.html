@@ -15,8 +15,17 @@
             '{"firstName":"Peter", "lastName":"Jones"}' +
         ']}';
         const obj = JSON.parse(text);
+
+        /*
         document.getElementById("demo").innerHTML = obj.employees[1].firstName + " " + obj.employees[1].lastName;
         document.getElementById("demo1").innerHTML = obj.employees[2].firstName + " " + obj.employees[2].lastName;
+        */
+
+        // printing using loops
+        let i;
+        for (i = 0; i < obj.employees.length; i++) {
+            document.getElementById("demo").innerHTML += obj.employees[i].firstName + " " + obj.employees[i].lastName + "<br>";
+        }
 
     </script>
 </body>
