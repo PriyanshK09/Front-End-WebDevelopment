@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery</title>
+<style>
+    body {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #795050;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .gallery {
+        display: none;
+        border: 2px solid #333;
+        padding: 10px;
+        margin: 20px auto;
+        width: 90%;
+        max-width: 800px;
+        overflow: auto;
+    }
+
+    #thumbnails-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .thumbnail {
+        margin: 5px;
+        cursor: pointer;
+        border: 2px solid transparent;
+        transition: border-color 0.3s;
+    }
+
+    .thumbnail:hover {
+        border-color: blue;
+    }
+
+    #full-image-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .button-container {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+</style>
+</head>
+<body>
+
+<h1>Image Gallery</h1>
+
+<div class="button-container">
+    <button onclick="toggleGallery()">Show Gallery</button>
+</div>
+
+<div class="gallery" id="gallery">
+    <div id="thumbnails-container">
+        <img class="thumbnail" src="https://leetcode.com/static/images/LeetCode_logo_rvs.png" alt="LeetCode Logo" width="100" height="100">
+        <img class="thumbnail" src="https://cdn.cdo.mit.edu/wp-content/uploads/sites/67/2021/01/0_zuhXdNAIUoxEem4-.png" alt="Leetcode Full Logo" width="100" height="100">
+        <img class="thumbnail" src="https://images.pexels.com/photos/19274988/pexels-photo-19274988/free-photo-of-black-and-white-photo-of-a-woman-standing-in-the-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Woman Standing in the Forest" width="100" height="100">
+
+    </div>
+
+    <div id="full-image-container">
+        <img id="full-image" src="https://leetcode.com/static/images/LeetCode_logo_rvs.png" alt="LeetCode Logo" width="400" height="400">
+    </div>
+</div>
+
+<script>
+    function toggleGallery() {
+        const gallery = document.getElementById('gallery');
+        gallery.style.display = (gallery.style.display === 'none') ? 'block' : 'none';
+    }
+
+    const thumbnails = document.querySelectorAll('.thumbnail');
+    const fullImage = document.getElementById('full-image');
+
+    thumbnails.forEach(thumbnail => {
+        thumbnail.addEventListener('click', function() {
+            const src = this.src;
+            fullImage.src = src;
+        });
+    });
+</script>
+
+</body>
+</html>

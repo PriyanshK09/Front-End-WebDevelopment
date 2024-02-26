@@ -72,6 +72,7 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 **Feb 26, 2024**
 - **[JSON-Object.html](JSON-Object.html)** - This project demonstrates how to use JSON objects in JavaScript.
 - **[JSON2.html](JSON2.html)** - This project demonstrates how to use JSON objects in JavaScript.
+- **[JS-ClassTask5.html](JS-ClassTask5.html)** - This project was given in class. (Event Handling)
 ---
 
 ## Latest Update: February 23, 2024
