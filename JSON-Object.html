@@ -6,6 +6,7 @@
 <body>
     <h2>Create Object from JSON String</h2>
     <p id="demo"></p>
+    <p id="demo1"></p>
 
     <script>
         let text = '{"employees" : [' + 
@@ -15,6 +16,7 @@
         ']}';
         const obj = JSON.parse(text);
         document.getElementById("demo").innerHTML = obj.employees[1].firstName + " " + obj.employees[1].lastName;
+        document.getElementById("demo1").innerHTML = obj.employees[2].firstName + " " + obj.employees[2].lastName;
 
     </script>
 </body>
