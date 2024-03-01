@@ -1,0 +1,66 @@
+<!-- jQuery Junction: CDN Odyssey:30 Minutes
+Assign tasks that involve using Query selectors to target specific elements and manipulate their content, attributes, or styles.
+Participants can dynamically update HTML'elements based on JSON data.
+Assign the task to replace the local Query file with a CDN link.
+Participants should modify the code to use jQuery from the CDN and ensure it functions as expected. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class Task 6</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container div {
+            padding: 20px;
+            border: 1px solid #000;
+            margin: 10px;
+        }
+        button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>Task 1</h1>
+            <p id="task1">This is Task 1</p>
+            <button id="btnTask1">Update Task 1</button>
+        </div>
+        <div>
+            <h1>Task 2</h1>
+            <p id="task2">This is Task 2</p>
+            <button id="btnTask2">Update Task 2</button>
+        </div>
+        <div>
+            <h1>Task 3</h1>
+            <p id="task3">This is Task 3</p>
+            <button id="btnTask3">Update Task 3</button>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('#btnTask1').click(function() {
+                $('#task1').text('This is Task 1 - Updated');
+            });
+
+            $('#btnTask2').click(function() {
+                $('#task2').text('This is Task 2 - Updated');
+            });
+
+            $('#btnTask3').click(function() {
+                $('#task3').text('This is Task 3 - Updated');
+            });
+        });
+    </script>
+</body>
+</html>
