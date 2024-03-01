@@ -73,9 +73,13 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 - **[JSON-Object.html](JSON-Object.html)** - This project demonstrates how to use JSON objects in JavaScript.
 - **[JSON2.html](JSON2.html)** - This project demonstrates how to use JSON objects in JavaScript.
 - **[JS-ClassTask5.html](JS-ClassTask5.html)** - This project was given in class. (Event Handling)
+
+**Mar 1, 2024**
+- **[jQuery.html](jQuery.html)** - This project demonstrates how to use jQuery to select elements from the HTML document.
+- **[jQuerySelectors.html](jQuerySelectors.html)** - This project demonstrates how to use jQuery selectors to select elements from the HTML document.
 ---
 
-## Latest Update: February 23, 2024
+## Latest Update: March 1, 2024
 This section will be updated with the latest projects and notes from my front end development class.
 
 ---

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Selectors</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>jQuery Selectors Example</h1>
+
+    <div id="myDiv">
+        <p>Hello, World!</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+
+        <p>Goodbye, World!</p>
+        <!-- Buttons -->
+        <button id="btn1">Button 1</button>
+        <button id="btn2">Button 2</button>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            // jQuery code using selectors
+            var paragraph = $("p");
+            var listItem = $("ul li");
+            var myDiv = $("#myDiv");
+            var button = $("button");
+
+            // Manipulating the selected elements
+            paragraph.text("Hello, jQuery!");
+            listItem.css("color", "blue");
+            myDiv.addClass("highlight");
+            button.click(function() {
+                alert("Button clicked!");
+            });
+
+        });
+    </script>
+</body>
+</html>
