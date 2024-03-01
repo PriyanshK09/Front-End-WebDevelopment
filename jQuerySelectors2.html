@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#b1").click(function(){
+                $("h1").text("Lovely Professional University");
+            });
+            $("#b2").click(function(){
+                $("h2").html("<i>Punjab India</i>");
+            });
+            $("#b3").click(function(){
+                $("h3").html("<img src='https://www.lpu.in/images/logo.png' width='100px' height='100px'>");
+            });
+            $("#b4").click(function(){
+                $("h4").text("K22MK");
+            });
+            });
+    </script>
+</head>
+<body>
+    <h1>LPUNEST</h1>
+    <h2>Phagwara</h2>
+    <h3></h3>
+    <h4></h4>
+    <button id="b1">Change Text</button>
+    <button id="b2">Change HTML</button>
+    <button id="b3">Change Image</button>
+    <button id="b4">Change Text</button>
+</body>
+</html>
