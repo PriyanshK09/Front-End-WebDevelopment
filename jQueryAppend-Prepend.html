@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Append and Prepend Example</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <style>
+        #myDiv {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="myDiv">
+        <!-- BEGIN: jQuery Append and Prepend Example -->
+        <p>Original content</p>
+        <!-- END: jQuery Append and Prepend Example -->
+        <button id="prependButton">Prepend</button>
+        <button id="appendButton">Append</button>
+        <br>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("#prependButton").click(function() {
+                $("#myDiv").prepend("Hello <br>");
+            });
+
+            $("#appendButton").click(function() {
+                $("#myDiv").append("<br>How are you?");
+            });
+        });
+    </script>
+</body>
+</html>

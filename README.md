@@ -83,6 +83,7 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 **Mar 4, 2024**
 - **[jQuerySelectors3.html](jQuerySelectors3.html)** - This project demonstrates how to use jQuery selectors to select elements from the HTML document.
 - **[jQuerySelectors4.html](jQuerySelectors4.html)** - This project demonstrates how to use jQuery selectors to select elements from the HTML document.
+- **[jQueryAppend-Prepend.html](jQueryAppend-Prepend.html)** - This project demonstrates how to use the append() and prepend() methods to add content to an HTML document using jQuery.
 
 ---
 
