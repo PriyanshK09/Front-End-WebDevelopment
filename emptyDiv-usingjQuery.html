@@ -23,13 +23,13 @@
     <script>
         $(document).ready(function() {
             $('#addEmptyDiv').click(function() {
-                $('#container').append('<div id="emptyDiv"><p>Hello</p><p>Hey there</p><p>How are you</p></div>');
+                $('#container').empty();
             });
         });
     </script>
 </head>
 <body>
-    <div id="container"></div>
+    <div id="container"><div id="emptyDiv"><p>Hello</p><p>Hey there</p><p>How are you</p></div></div>
     <button id="addEmptyDiv">Click to see Effect</button>
 </body>
 </html>
