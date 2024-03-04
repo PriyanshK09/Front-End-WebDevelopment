@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Empty Div using jQuery</title>
+    <style>
+        #container {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            position: relative;
+        }
+        #emptyDiv {
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#addEmptyDiv').click(function() {
+                $('#container').append('<div id="emptyDiv"><p>Hello</p><p>Hey there</p><p>How are you</p></div>');
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="container"></div>
+    <button id="addEmptyDiv">Click to see Effect</button>
+</body>
+</html>
