@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Example</title>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+</head>
+<body style="text-align: center;">
+    <h1>Form</h1>
+    <form>
+        <input type="text" name="name" id="name"><br>
+        <br>
+        <input type="submit" name="submit" id="btn" disabled="disabled">
+    </form>
+
+    <script>
+        $('#name').keyup(function() {
+            if($('#name').val() != '') {
+                $('#btn').removeAttr('disabled');
+            } else {
+                $('#btn').attr('disabled', 'disabled');
+            }
+        });
+    </script>
+
+</body>
+</html>
