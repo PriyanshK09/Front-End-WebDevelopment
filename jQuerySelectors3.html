@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Example</title>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+</head>
+<body>
+    <form>
+        <input type="text" id="input">
+        <br>
+        <br>
+        <button id="setValue">Set Value</button>
+        <button id="clearValue">Clear Value</button>
+    </form>
+
+    <script>
+        $(document).ready(function() {
+            $("#setValue").click(function() {
+                var value = "Hey there!";
+                $("#input").val(value);
+            });
+
+            $("#clearValue").click(function() {
+                $("#input").val("");
+            });
+        });
+    </script>
+</body>
+</html>

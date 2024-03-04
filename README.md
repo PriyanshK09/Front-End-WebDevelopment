@@ -77,6 +77,12 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 **Mar 1, 2024**
 - **[jQuery.html](jQuery.html)** - This project demonstrates how to use jQuery to select elements from the HTML document.
 - **[jQuerySelectors.html](jQuerySelectors.html)** - This project demonstrates how to use jQuery selectors to select elements from the HTML document.
+- **[jQuerySelectors2.html](jQuerySelectors2.html)** - This project demonstrates how to use jQuery selectors to select elements from the HTML document.
+
+
+**Mar 4, 2024**
+- **[jQuerySelectors3.html](jQuerySelectors3.html)** - This project demonstrates how to use jQuery selectors to select elements from the HTML document.
+
 ---
 
 ## Latest Update: March 1, 2024
