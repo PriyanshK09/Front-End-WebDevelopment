@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data to JSON</title>
+</head>
+<body>
+    <h1>Data to JSON</h1>
+
+    <button onclick="convertToJson()">Convert to JSON</button>
+
+    <script>
+        function convertToJson() {
+            // Your data
+            var data = {
+                name: "John Doe",
+                age: 30,
+                email: "johndoe@example.com"
+            };
+
+            // Convert data to JSON
+            var jsonData = JSON.stringify(data);
+
+            // Create a Blob object with the JSON data
+            var blob = new Blob([jsonData], {type: "application/json"});
+
+            // Save the JSON data to a file
+            var link = document.createElement("a");
+            link.href = URL.createObjectURL(blob);
+            link.download = "data.json";
+            link.click();
+
+            // Clean up the temporary anchor element
+            URL.revokeObjectURL(link.href);
+        }
+    </script>
+</body>
+</html>
