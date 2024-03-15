@@ -89,6 +89,8 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 
 **Mar 15, 2024**
 - **[jQuery-Events.html](jQuery-Events.html)** - This project demonstrates how to use jQuery events to add interactivity to a webpage.
+- **[dataToJson.html](dataToJson.html)** - This project demonstrates how to convert data to JSON using jQuery.
+- **[JS-ClassTask7.html](JS-ClassTask7.html)** - This project was given in class. (JSON)
 
 ---
 

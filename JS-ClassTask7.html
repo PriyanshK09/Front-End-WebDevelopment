@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JSON Object Conversion</title>
+</head>
+<body>
+<script>
+    // JSON object with nested objects representing participants
+    const participants = [
+        {
+            name: "Alice",
+            age: 30,
+            address: {
+                street: "123 Main St",
+                city: "Anytown",
+                state: "CA",
+                zip: "12345"
+            }
+        },
+        {
+            name: "Bob",
+            age: 25,
+            address: {
+                street: "456 Elm St",
+                city: "Sometown",
+                state: "NY",
+                zip: "67890"
+            }
+        }
+    ];
+
+    // Convert JSON object to a string
+    const jsonString = JSON.stringify({ participants });
+    console.log("Stringified JSON Object:", jsonString);
+
+    // Convert stringified JSON object back to a JavaScript object
+    const jsonObject = JSON.parse(jsonString);
+    console.log("Parsed JavaScript Object:", jsonObject);
+
+    // Print the stringified JSON object and the parsed JavaScript object to the HTML body
+    document.body.innerHTML = `
+        <p>Stringified JSON Object: ${jsonString}</p>
+        <p>Parsed JavaScript Object: ${JSON.stringify(jsonObject)}</p>
+    `;
+</script>
+</body>
+</html>
