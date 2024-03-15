@@ -87,9 +87,12 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 - **[hidingForm-usingjQuery.html](hidingForm-usingjQuery.html)** - This project demonstrates how to hide a form using jQuery.
 - **[emptyDiv-usingjQuery.html](emptyDiv-usingjQuery.html)** - This project demonstrates how to add an empty div using jQuery.
 
+**Mar 15, 2024**
+- **[jQuery-Events.html](jQuery-Events.html)** - This project demonstrates how to use jQuery events to add interactivity to a webpage.
+
 ---
 
-## Latest Update: March 1, 2024
+## Latest Update: March 15, 2024
 This section will be updated with the latest projects and notes from my front end development class.
 
 ---
