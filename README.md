@@ -94,6 +94,7 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 
 **Mar 18, 2024**
 - **[b_Active_disabled.html](b_Active_disabled.html)** - This project demonstrates how to use the active and disabled states in CSS.
+- **[buttonStyles.html](buttonStyles.html)** - This project demonstrates how to style buttons using CSS.
 
 ---
 
