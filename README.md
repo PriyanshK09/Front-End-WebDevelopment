@@ -96,6 +96,7 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 - **[b_Active_disabled.html](b_Active_disabled.html)** - This project demonstrates how to use the active and disabled states in CSS.
 - **[buttonStyles.html](buttonStyles.html)** - This project demonstrates how to style buttons using CSS.
 - **[buttonSpinner.html](buttonSpinner.html)** - This project demonstrates how to create a button spinner using CSS.
+- **[buttonSizes.html](buttonSizes.html)** - This project demonstrates how to create different button sizes using CSS.
 
 ---
 
