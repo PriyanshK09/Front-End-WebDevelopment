@@ -102,6 +102,8 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 
 **Mar 29, 2024**
 - **[gridClasses.html](gridClasses.html)** - This project demonstrates how to use grid classes in CSS.
+- **[responsive_images.html](responsive_images.html)** - This project demonstrates how to create responsive images using CSS.
+- **[tableSimple.html](tableSimple.html)** - This project demonstrates how to create a simple table using CSS.
 
 ---
 
