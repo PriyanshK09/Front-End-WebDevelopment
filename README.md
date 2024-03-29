@@ -100,6 +100,9 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 - **[buttonActive.html](buttonActive.html)** - This project demonstrates how to create an active button using CSS.
 - **[b_dropdown.html](b_dropdown.html)** - This project demonstrates how to create a dropdown button using CSS.
 
+**Mar 29, 2024**
+- **[gridClasses.html](gridClasses.html)** - This project demonstrates how to use grid classes in CSS.
+
 ---
 
 ## Latest Update: March 18, 2024
