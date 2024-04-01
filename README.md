@@ -109,6 +109,8 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 
 **Apr 1, 2024**
 - **[ListUsingBootstrap.html](ListUsingBootstrap.html)** - This project demonstrates how to create a list using Bootstrap.
+- **[ListGroupHorizontal.html](ListGroupHorizontal.html)** - This project demonstrates how to create a horizontal list group using Bootstrap.
+- **[ListGroupVertical.html](ListGroupVertical.html)** - This project demonstrates how to create a vertical list group using Bootstrap.
 
 ---
 
