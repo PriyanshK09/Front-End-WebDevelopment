@@ -112,6 +112,7 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 - **[ListGroupHorizontal.html](ListGroupHorizontal.html)** - This project demonstrates how to create a horizontal list group using Bootstrap.
 - **[ListGroupVertical.html](ListGroupVertical.html)** - This project demonstrates how to create a vertical list group using Bootstrap.
 - **[ListWithoutBorder.html](ListWithoutBorder.html)** - This project demonstrates how to create a list without borders using Bootstrap.
+- **[ListInlineOrder.html](ListInlineOrder.html)** - This project demonstrates how to create an inline list using Bootstrap.
 
 ---
 
