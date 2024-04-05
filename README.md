@@ -114,6 +114,7 @@ Welcome to my Front End Web Development repository! This repository contains HTM
 - **[ListWithoutBorder.html](ListWithoutBorder.html)** - This project demonstrates how to create a list without borders using Bootstrap.
 - **[ListInlineOrder.html](ListInlineOrder.html)** - This project demonstrates how to create an inline list using Bootstrap.
 - **[ListLinkContextual.html](ListLinkContextual.html)** - This project demonstrates how to create a contextual list using Bootstrap.
+- **[Angular](Angular)** - This project demonstrates how to create a simple Angular application.
 
 ---
 
